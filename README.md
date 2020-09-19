@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Practica1 Descripcion y uso
+
+Este sitio es una práctica de desarrollo con el framework angular 10. En este sitio puede hacer (en teoría) crear usuarios, logearse en el sistema y guardar imagenes. 

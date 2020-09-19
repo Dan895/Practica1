@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { ImagenesComponent } from './componentes/imagenes/imagenes.component';
+import { RegistroComponent } from './componentes/registro/registro.component';
 //agrega en los imports una instancia del import del ReactiveFormsModule
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ImagenesComponent
+    ImagenesComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,

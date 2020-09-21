@@ -1,19 +1,23 @@
   <!--Aquí esta la maqueta de la web-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-12 bg-danger">
-        <h1>Práctica 1</h1>
+      <div class="col-sm-12 col-md-12 col-lg-12 bg-danger">
+        <h1>{{title}}</h1>
+        <!--h2>{{Usuario}}</h2>-->
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-3 bg-warning">
+      <div class="col-sm-12 col-md-6 col-lg-3 bg-warning">
         <app-imagenes></app-imagenes>
       </div>
-      <div class="col-lg-6 bg-secondary" id="divCentral">
-        <!--<app-registro></app-registro>-->
-      </div>
-      <div class="col-lg-3">
-        <app-login></app-login> 
+      <div class="col-sm-12 col-md-6 col-lg-6 bg-secondary" id="divCentral">
+        <!--<ng-template appHostDinamico></ng-template>Componente generado-->
+          <app-registro *ngIf="show"></app-registro>
+      </div> 
+      <div class="col-sm-12 col-md-12 col-lg-3 bg-light">
+        <app-login></app-login>
+        <!--<a href="#" (click)="createComponent()">Nuevo Usuario</a>-->
+        <button class="btn btn-primary" (click)="show=!show">Nuevo Usuario</button>
       </div>
     </div>
     <div class="row">

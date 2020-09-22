@@ -12,4 +12,6 @@ export class ImagenesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  crearImagen(){}
+
 }
